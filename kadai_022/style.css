@@ -22,14 +22,14 @@ main{
 }
 #parent{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 
 }
 .contents{
   border: solid 3px rgb(238, 204, 204);
-  flex-basis:25%;
+  flex-basis: 25%;
   padding:10px 15px;
-  margin: 20px 20px;
+  margin: 20px 0px;
   text-align: center;
 }
 h2{
@@ -44,7 +44,7 @@ p:nth-child(3)::first-letter{
   color:rgb(97, 206, 249);
   font-weight: bold;
 }
-.class img{
+.contents img{
   margin: 10px 0px;
   width: 70%;
 }
